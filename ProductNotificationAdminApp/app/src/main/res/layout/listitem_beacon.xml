@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp" >
+
+    <TextView
+        android:id="@+id/beaconLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/uuidText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beaconLocation"
+        android:layout_marginTop="6dp"
+        android:text="UUID: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/beaconUUID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/uuidText"
+        android:layout_below="@id/beaconLocation"
+        android:layout_marginTop="6dp"
+        android:text="123456789-13246579841-13246579231-1315"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/majorText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uuidText"
+        android:layout_marginTop="2dp"
+        android:text="Major: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/beaconMajor"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/majorText"
+        android:layout_below="@id/uuidText"
+        android:layout_marginTop="2dp"
+        android:text="xx"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/minorText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/beaconMajor"
+        android:layout_below="@id/uuidText"
+        android:layout_marginTop="2dp"
+        android:text="Minor: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/beaconMinor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/minorText"
+        android:layout_below="@id/uuidText"
+        android:layout_marginTop="2dp"
+        android:text="xx"
+        android:textSize="12sp" />
+
+</RelativeLayout>

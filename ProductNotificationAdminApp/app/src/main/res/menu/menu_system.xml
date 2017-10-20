@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.geofencing.products.productnotificationadmin.System.SystemActivity">
+    <item
+        android:title="Update"
+        android:orderInCategory="10"
+        android:id="@+id/menu_update" />
+    <item
+        android:title="Add Geofence"
+        android:orderInCategory="20"
+        android:id="@+id/menu_addGeofence" />
+    <item
+        android:title="Logout"
+        android:orderInCategory="30"
+        android:id="@+id/menu_logout" />
+</menu>

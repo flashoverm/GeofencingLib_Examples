@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "956980504141",
+    "firebase_url": "https://productnotification-20ff4.firebaseio.com",
+    "project_id": "productnotification-20ff4",
+    "storage_bucket": "productnotification-20ff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956980504141:android:1659a9517d6b0b9a",
+        "android_client_info": {
+          "package_name": "de.geofencing.products.productnotificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956980504141-kn2cbat3fqh40ri9e8oruf44rseg0q7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXuIZPtPlPit25YuDzq5pupxTZN8i26Jw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

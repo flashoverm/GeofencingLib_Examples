@@ -1,0 +1,11 @@
+#
+#Thu Jun 29 18:09:40 CEST 2017
+uuid=956f79bb-6914-4277-bbdf-30d021541b75
+adminPassword=password
+firebaseUrl=https\://fcm.googleapis.com/fcm/send
+dbDatabase=productNotification
+deviceServerKey=AAAA3tB7pk0:APA91bGqBbkddFdeCCkyN4gu9JHeM6mU9MGieZHw_CF8JUWZjBbutIXlrNCjb_U6lq7IpOBCGs4yhmwR4THEJakKodt7gXEgFXHWsZCGttOO_g0XfDiuQyuRsHp1m-jD4XhvaHTzZtt5
+dbAdress=127.0.0.1
+dbPort=27017
+dbUser=admin
+dbPassword=passwordDB

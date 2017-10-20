@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp" >
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:gravity="center_vertical"
+        android:text="Device-Name"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/deviceIdText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@id/deviceName"
+        android:text="Device ID:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/deviceID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceIdText"
+        android:gravity="center_vertical"
+        android:text="ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/beaconsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceID"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="Beacons: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/deviceBeacons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/beaconsText"
+        android:layout_below="@id/deviceID"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:layout_marginLeft="28dp"
+        android:text="xx"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lastUpdateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beaconsText"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="Last Update: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/deviceLastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/lastUpdateText"
+        android:layout_below="@id/beaconsText"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:text="xx"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProductNotificationAdmin</string>
+
+    <string-array name="trigger">
+        <item>Enter</item>
+        <item>Enter for</item>
+        <item>Leave</item>
+        <item>Leave for</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_system">SystemActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_geofence">GeofenceActivity</string>
+</resources>

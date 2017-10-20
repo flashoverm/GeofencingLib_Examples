@@ -1,0 +1,9 @@
+#
+#Fri Jun 30 02:14:23 CEST 2017
+adminPassword=password
+uuid=956f79bb-6914-4277-bbdf-30d021541b75
+dbAdress=127.0.0.1
+dbDatabase=areaCounter
+dbPort=27017
+dbPassword=passwordDB
+dbUser=admin
